@@ -3,15 +3,14 @@ Personal doc. For installation and basic usage of wsl (Windows subsystem Linux) 
 
 ## WSL
 ### Installation
-1. Start `Powershell` or `cmd` in *ADMINISTRATOR* mode, and run:
+1. Start `Powershell` or `cmd` in **ADMINISTRATOR** mode, and run following command line to install wsl for your PC.
 ```
 wsl --install
 ```
-This will install wsl for your PC.
 
 2. Go to Microsoft store to search and download `Ubuntu 22.04`. The installation is expected to start automatically.
 
-During installtion, you are required to type in your *username* and *password*. You are *not root* by default, unlike in most docker case.
+During installtion, you are required to type in your *username* and *password*. You are **not root** by default.
 
 ### Verification
 After ubuntu system is installed, you can run it by any of following methods:
